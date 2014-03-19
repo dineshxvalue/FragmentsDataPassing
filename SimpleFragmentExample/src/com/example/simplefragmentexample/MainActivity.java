@@ -14,7 +14,7 @@ public class MainActivity extends FragmentActivity implements OnButtonPressListe
 	@Override
 	public void onButtonPressed(String msg) {
 		// TODO Auto-generated method stub
-		 LayOutTwo Obj=(LayOutTwo) getSupportFragmentManager().findFragmentById(R.id.frag_2);
+		 LayOutTwo Obj=(LayOutTwo) getFragmentManager().findFragmentById(R.id.frag_2);
 		 Obj.setMessage(msg);
 	}
 
